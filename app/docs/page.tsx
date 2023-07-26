@@ -1,2 +1,2 @@
-const DocsPage = () => <div>docs</div>;
+const DocsPage = () => <div>docs need more content</div>;
 export default DocsPage;
