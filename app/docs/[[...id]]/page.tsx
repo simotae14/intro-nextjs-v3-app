@@ -1,7 +1,9 @@
+import styles from './style.module.css';
+
 const DocsPage = ({ params }) => {
   console.log(params);
   return (
-    <div>docs need more content</div>
+    <div className={`${styles.title} ${styles.another}`}>docs</div>
   );
 };
 export default DocsPage;
