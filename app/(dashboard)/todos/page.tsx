@@ -1,7 +1,5 @@
-console.log(process.argv)
-
-const TodosPage = () => {
-  return <div>Settings page</div>
+const DashboardPage = () => {
+  return <div>dashboard page</div>
 }
 
-export default TodosPage;
+export default DashboardPage;
