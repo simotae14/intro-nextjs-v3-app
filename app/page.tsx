@@ -1,3 +1,5 @@
+import NewTodoForm from "@/components/NewTodoForm";
+
 const getData = async () => {
   await new Promise((res) => setTimeout(() => res(), 2000));
   return {
@@ -8,7 +10,7 @@ const getData = async () => {
 const Home = async () => {
   const data = await getData();
   console.log(data);
-  return <div>home</div>
+  return <div><NewTodoForm onChange={() => console.log('hello')} /></div>
 };
 
 export default Home;
