@@ -1,3 +1,4 @@
+'use client'
 import NewTodoForm from "@/components/NewTodoForm";
 
 const getData = async () => {
